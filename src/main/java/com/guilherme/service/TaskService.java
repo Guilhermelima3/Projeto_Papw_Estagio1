@@ -2,9 +2,7 @@ package com.guilherme.service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Supplier;
 
-import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,7 +16,7 @@ import com.guilherme.repository.ProjectRepository;
 import com.guilherme.repository.TaskRepository;
 import com.guilherme.service.exception.NotFoundException;
 import com.guilherme.util.FormatDate;
-import com.techzone.taskcontroller.service.excepetion.ObjectNotFoundException;
+
 
 @Service
 public class TaskService<X> {

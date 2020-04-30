@@ -15,9 +15,7 @@ import javax.persistence.OneToMany;
 import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.techzone.taskcontroller.domain.Object;
-import com.techzone.taskcontroller.domain.Override;
-import com.techzone.taskcontroller.domain.Person;
+
 
 
 @Entity

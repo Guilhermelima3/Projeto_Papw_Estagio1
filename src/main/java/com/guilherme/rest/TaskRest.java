@@ -33,6 +33,7 @@ public class TaskRest {
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Task findById(@PathVariable Integer id) {
         return service.findById(id);
+        
     }
 
     @RequestMapping(value = "/date", method = RequestMethod.GET)

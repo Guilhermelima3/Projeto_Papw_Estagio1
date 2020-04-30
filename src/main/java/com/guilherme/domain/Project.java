@@ -16,7 +16,7 @@ import javax.validation.constraints.NotNull;
 
 
 @Entity
-public class Project<Cvs, Date> implements Serializable {
+public class Project<Task, Date> implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 

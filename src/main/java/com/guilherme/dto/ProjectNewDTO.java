@@ -137,10 +137,7 @@ public class ProjectNewDTO implements Serializable{
 		return null;
 	}
 
-	public Collection getCvs() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 
 }

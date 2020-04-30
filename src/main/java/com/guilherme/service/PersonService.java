@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import com.guilherme.domain.Department;
 import com.guilherme.domain.Person;
 import com.guilherme.dto.PersonNewDTO;
-import com.guilherme.repository.DepartmentRepository;
+
 import com.guilherme.repository.PersonRepository;
 import com.guilherme.service.exception.NotFoundException;
 

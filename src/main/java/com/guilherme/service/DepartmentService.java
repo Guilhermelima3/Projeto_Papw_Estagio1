@@ -14,6 +14,7 @@ import com.guilherme.service.exception.NotFoundException;
 public class DepartmentService {
 
 	@Autowired
+	static
 	DepartmentRepository repository;
 
 	@Autowired
