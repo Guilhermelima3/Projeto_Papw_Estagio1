@@ -13,7 +13,7 @@ import com.guilherme.service.exception.NotFoundException;
 public class RestExceptionHandler {
 
 	@ExceptionHandler(NotFoundException.class)
-	public ResponseEntity<StandardError> objectNotFound(NotFoundException e){
+	public ResponseEntity<StandardError> NotFound(NotFoundException e){
 		StandardError error = new StandardError(e.getMessage(), HttpStatus.NOT_FOUND.value());
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).body(error);
 	}
